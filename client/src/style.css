@@ -44,12 +44,23 @@ img{
 }
 
 .form{
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
 input{
-    width: 150px;padding: 10px;
+    width: 100% - 20px;
+    padding: 10px;
     border:1px solid gray;
+}
+
+.formButton{
+    border: none;
+    padding: 10px;
+    background-color: #b0ab61;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 

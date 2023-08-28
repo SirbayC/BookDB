@@ -61,5 +61,5 @@ app.put("/books/:id", (req, res) => {
 })
 
 app.listen(8800, () => {
-    console.log("Connected to backend!2")
+    console.log("Connected to backend!")
 })

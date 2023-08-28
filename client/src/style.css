@@ -10,6 +10,7 @@
 .books{
     display: flex;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 .book{
@@ -64,3 +65,14 @@ input{
     cursor: pointer;
 }
 
+.linkNoUnderline{
+    text-decoration: none;
+}
+
+.addBook{
+    padding: 6px 9px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 243);
+    color: rgb(139, 139, 234);
+}
